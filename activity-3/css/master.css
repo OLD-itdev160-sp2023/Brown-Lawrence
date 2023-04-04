@@ -10,7 +10,7 @@ h1{
 
 img{
     height: 100px;
-    text-align: :left;
+    text-align:left;
 }
 
 figcaption{
@@ -25,5 +25,5 @@ p#product-description{
 div.review{
     padding: 10px;
     background-color: #eee;
-    margin: 20[x 0 20px 0;]
+    margin: 20px 0 20px 0;
 }
