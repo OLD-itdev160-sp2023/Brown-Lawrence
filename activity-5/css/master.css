@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: auto 30px;
+}
+
+#credits{
+    font-style: italic;
+    font-size: .75em;
+    margin-bottom: 20px
+}
+
+#header-image {
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+        text-align:center
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: auto 30px;
+    text-align: center;
+}
+
+#credits{
+    text-align: center;
+}
