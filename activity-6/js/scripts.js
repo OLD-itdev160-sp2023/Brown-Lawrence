@@ -1,11 +1,11 @@
-//Array to store messages
+// Array to store messages
 var messages = [];
 
 //  Message Type lookup object. Similar to enum.
 var messageType = {
     out: 'out-message',
     in: 'in-message',
-    unknown: 'unknown message'
+    unknown: 'unknown-message'
 }
 
 // Seed data (optional)
@@ -99,7 +99,7 @@ function loadSeedData() {
     //Load view with pre-loaded messages
     var messagesContainerEl = document.getElementById('message-container');
 
-    for (var i=0; i < message.length; i++) {
+    for (var i=0; i < messages.length; i++) {
         var message = messages[i];
         var el = createMessageElement(message);
 
