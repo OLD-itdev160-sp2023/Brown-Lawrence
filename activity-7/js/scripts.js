@@ -51,7 +51,7 @@ function addTask (event) {
 }
 
 // Click handler to complete a task
-function completeTask (event) {
+function completeTask (event) { 
     //Get the task element
     var taskEl = event.target;
     var id = taskEl.id;
